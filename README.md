@@ -1,12 +1,31 @@
-# React + Vite
+# Trabajo Práctico N°3 - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Descripción
 
-Currently, two official plugins are available:
+El objetivo principal del trabajo práctico es introducirnos al desarrollo de aplicaciones web utilizando **React**, incorporando conceptos fundamentales como **componentes**, **props**, **estado** y **hooks**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El desarrollo consiste en una pequeña aplicación de gestión de tareas (ToDo List), que permite:
 
-## Expanding the ESLint configuration
+- Agregar nuevas tareas.
+- Visualizar la lista de tareas.
+- Marcar tareas como completadas.
+- Eliminar tareas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación se desarrolló utilizando **Vite + React** como entorno inicial, empleando **JSX** y componentes funcionales reutilizables (`TaskItem`, `TaskList`, `TaskInput`), organizados bajo principios de modularidad y escalabilidad.  
+El estado de la aplicación se maneja con `useState`, actualizándose dinámicamente según la interacción del usuario.
+
+## 👥 Integrantes
+
+- Alexander Natanael Ajalla (Alexander-Ajalla)
+- Barrientos Lautaro Nicolás (Lautaro Barrientos)
+- Ivo Thaiel Vicencio Rosas (IvoThaielVicencioRosas) 
+- Álvarez Carlos Matías (AlvarezCarlosMatias)
+- Sánchez Ariel Maximiliano (Sanchez Ariel Maximiliano)
+
+## 🛠️ Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- JSX
+- CSS
