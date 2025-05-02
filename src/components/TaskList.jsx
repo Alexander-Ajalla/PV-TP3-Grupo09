@@ -2,7 +2,7 @@ import { useState } from "react";
 //import TaskInput from "./TaskInput";
 import TaskItem from "./TaskItem";
 
-TaskList = () => {
+const TaskList = () => {
   const [tasks, setTasks] = useState([]);
   //funcion para añadir
   //pasar como parametro a TaskInput
