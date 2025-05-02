@@ -44,7 +44,6 @@ productos.forEach((producto) => {
 
 //Punto 4
 console.log("\nPUNTO 4:");
-//ORDENAMOS PRODUCTOS POR PRECIO CON EL SORT
 const productosOrdenados = [...productos].sort((a, b) => a.precio - b.precio);
 console.log("Productos ordenados por precio:");
 productosOrdenados.forEach((producto) => {
