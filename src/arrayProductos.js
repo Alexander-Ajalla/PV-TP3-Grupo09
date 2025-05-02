@@ -51,3 +51,15 @@ productosOrdenados.forEach((producto) => {
     `Producto: ${producto.descripcion} - Precio: $${producto.precio}`
   );
 });
+
+// * Punto 5
+console.log("\nPUNTO 5:");
+const nuevoProducto = { descripcion: "Parlante Bluetooth", precio: 59000.90 };
+productos.push(nuevoProducto);
+
+console.log("Producto agregado al final del array:");
+productos.forEach((producto) => {
+  console.log(
+    `Producto: ${producto.descripcion} - Precio: $${producto.precio}`
+  );
+});
