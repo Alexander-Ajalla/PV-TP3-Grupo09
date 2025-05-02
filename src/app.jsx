@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TaskInput from './components/TaskInput'; // Ajustá la ruta si tu carpeta es distinta
+import TaskInput from './components/TaskInput'; 
 
 function App() {
   const [tasks, setTasks] = useState([]); // Estado de lista de tareas
