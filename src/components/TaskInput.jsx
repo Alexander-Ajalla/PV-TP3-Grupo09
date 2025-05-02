@@ -11,7 +11,7 @@ function TaskInput(props) {
     event.preventDefault();
 
     if (inputValue.trim() !== "") {
-      props.onAddTask(inputValue);
+      props.onAddTask(inputValue); 
       setInputValue("");
     }
   }
