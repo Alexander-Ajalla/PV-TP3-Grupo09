@@ -3,13 +3,13 @@ import { useState } from "react";
 import TaskItem from "./TaskItem";
 
 const TaskList = () => {
-  const [tasks, setTasks] = useState([]);
+  //const [tasks, setTasks] = useState([]);
   //funcion para añadir
   //pasar como parametro a TaskInput
-  const addTask = (text) => {
+  /*const addTask = (text) => {
     const newTask = { id: crypto.randomUUID(), text, completed: false };
     setTasks((prev) => [...prev, newTask]);
-  };
+  };*/
   const toggleTask = (taskId) => {
     setTasks((prev) =>
       prev.map((task) =>
