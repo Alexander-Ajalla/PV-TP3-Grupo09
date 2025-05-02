@@ -1,0 +1,33 @@
+
+.task-item {
+    border-bottom: 1px solid #ddd; /* Solo un borde inferior simple como separador */
+    padding: 10px 5px; /* Un poco de espacio arriba/abajo y a los lados */
+    display: flex; /* Usamos flexbox para que el texto y los botones estén en línea */
+    align-items: center; /* Alinea verticalmente el texto y los botones */
+  }
+  
+  /* Estilo para el texto de la tarea (el <span>) */
+  .task-text {
+    flex-grow: 1; /* Permite que el texto ocupe el espacio disponible entre los botones */
+    margin-right: 10px; /* Espacio entre el texto y el botón de "Realizada" */
+    word-break: break-word; /* Ayuda a que el texto largo no se desborde */
+  }
+  
+  /* Estilo cuando la tarea está completada */
+  .task-text.completed {
+    text-decoration: line-through; /* Tacha el texto */
+    color: #888; /* Un color gris */
+  }
+  
+  /* Estilo para los botones (ambos usan la clase 'btn') */
+  .btn {
+    margin-left: 5px; /* Espacio entre los botones y el texto, y entre los botones */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    padding: 5px 10px; /* Un poco de espacio dentro de los botones */
+    /* Sin bordes, fondos de color, sombras, etc. - se usan los estilos por defecto del navegador o los estilos globales si existen */
+  }
+  
+  /* Si quieres diferenciar el botón "Eliminar" con un color de texto simple */
+  .task-item .btn:last-of-type {
+      color: red; /* Pone el texto del último botón en rojo */
+  }
