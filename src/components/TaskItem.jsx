@@ -1,14 +1,14 @@
 import React from "react";
 import "./TaskItem.css";
 
-function TaskItem({item, onToggleComplete, onDelete}) {
-  const textClassComplete = item.completed ? "task-text completed" : "task-text";
+function TaskItem({ task, onToggleComplete, onDelete }) {
+  const textClassComplete = task.completed ? "task-text completed" : "task-text";
 
   return (
     <li className="task-item">
-        <span className={textClassComplete}>{item.text}</span>
-      <button className="btn" onClick={() => onToggleComplete(item.id)}>Realizada</button>
-      <button  className="btn" onClick={() => onDelete(item.id)}>Eliminar</button>
+      <span className={textClassComplete}>{task.text}</span>
+      <button className="btn" onClick={() => onToggleComplete(task.id)}>Realizada</button>
+      <button className="btn" onClick={() => onDelete(task.id)}>Eliminar</button>
     </li>
   );
 }

@@ -16,8 +16,7 @@ productos.forEach((producto) => {
 });
 
 console.log(`
-    ***************
-    Punto 3:
+ Punto 3:
     Productos con precios aumentados en un 21%`);
 const productosPreciosConIva = productos.map((p) => ({
   ...p,

@@ -20,7 +20,7 @@ El estado de la aplicación se maneja con `useState`, actualizándose dinámicam
 - Barrientos Lautaro Nicolás (Lautaro Barrientos)
 - Ivo Thaiel Vicencio Rosas (IvoThaielVicencioRosas) 
 - Álvarez Carlos Matías (AlvarezCarlosMatias)
-- Sánchez Ariel Maximiliano (Sanchez Ariel Maximiliano)
+- Sánchez Ariel Maximiliano (MaxiSanchez27)
 
 ## 🛠️ Tecnologías utilizadas
 
