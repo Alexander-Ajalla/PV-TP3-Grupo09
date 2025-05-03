@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import TaskInput from "./components/TaskInput";
 import TaskList from "./components/TaskList";
+import Header from "./components/Header";
+import Footer from "./components/footer";
+
 
 function App() {
   const [tasks, setTasks] = useState([]); // Estado de lista de tareas
@@ -27,6 +30,7 @@ function App() {
 
   return (
     <div>
+      <Header />
       <h1>Mis Tareas</h1>
       <TaskInput onAddTask={addTask} />
       <TaskList
@@ -34,6 +38,7 @@ function App() {
         onToggleTask={toggleTask}
         onDeleteTask={deleteTask}
       />
+      <Footer />
     </div>
   );
 }
