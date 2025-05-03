@@ -29,3 +29,7 @@ El estado de la aplicación se maneja con `useState`, actualizándose dinámicam
 - JavaScript (ES6+)
 - JSX
 - CSS
+
+#### Instalar depencia
+
+`$ npm install react-icons`
